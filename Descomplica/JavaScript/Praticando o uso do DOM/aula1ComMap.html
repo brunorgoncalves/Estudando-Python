@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício DOM 1 com MAP</title>
+</head>
+
+
+<body>
+    <div class="estilo">
+        Div com estilo
+    </div>
+
+    <div class="estilo">
+        Div com estilo 2
+    </div>
+
+    <p class="estilo">Elemento p com estilo</p>
+    <p>Isso é <span class="estilo"> elemento span</span> dentro de um p</p>
+    
+
+</body>
+
+<script>
+    const elementosclass = document.querySelectorAll(".estilo");
+    const novos = Array.from(elementosclass).map(function(element){
+        element.style.background = "blue"
+        element.style.color = "white"
+        element.innerText = element.innerText.toUpperCase()
+
+    });
+
+
+    
+
+
+
+</script>
+
+</html>

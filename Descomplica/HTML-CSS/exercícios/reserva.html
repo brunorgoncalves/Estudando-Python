@@ -1,0 +1,76 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de reservas</title>
+    </head>
+    
+    <body>
+        
+   
+    
+    <section>
+        <h1>Reserva de viagem</h1>
+        <form method="get" action="">
+
+            <fieldset>
+
+                <legend>Dados Pessoais</legend>
+                <label>Nome</label><br>
+                <input type="text" name="nome" required><br><br>
+
+                <label>Email</label><br>
+                <input type="email" name="email" required><br><br>
+                
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Quais serviços deseja contratar?</legend>
+                    <label>
+                        <br><input type="checkbox" name="passagens" value="passagens">Compra de passagens
+                    </label>
+                    <label>
+                        <br><input type="checkbox" name="hospedagem" value="hospedagem">Reserva de Hospedagem
+                    </label>
+                    <label>
+                        <br><input type="checkbox" name="veiculos" value="veiculos">Reserva de veículos
+                    </label>               
+            </fieldset>
+
+            <fieldset> 
+                <legend>Qual será a forma de pagamento?</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="credito">Cartão de Crédito
+                </label>   
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="boleto">Boleto
+                </label>                 
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="pix">Pix
+                </label>    
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Escolha o prazo de pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista" selected>À Vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x">10x com juros</option>
+                </select>
+            </fieldset>
+
+            <br><input type="submit" name="enviar">
+           
+
+
+        </form>
+
+
+
+    </section>
+
+</body>
+</html>

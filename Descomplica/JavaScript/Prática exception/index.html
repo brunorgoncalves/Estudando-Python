@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática Exception</title>
+</head>
+<body>
+    <form method="get" action="">
+
+        <fieldset>
+
+            <legend>Dados do funcionário</legend>
+                <label>Nome</label><br>
+                <input type="text" id="nome" required><br><br>
+
+                <label>Idade</label><br>
+                <input type="number" id="idade" required><br><br>
+
+                <label for="cargo">Qual o seu cargo?</label><br>
+                <select id="cargo">
+                    <option value="gerente">Gerente</option>
+                    <option value="desenvolvedor">Desenvolvedor</option>
+                </select>
+                
+                <br><br><label>Qual é o seu departamento?</label><br>
+                <input type="text" id="departamento" required><br><br> 
+                
+                <label>Em qual linguagem você programa?</label><br>
+                <input type="text" id="linguagem"><br><br> 
+                
+                <button type="button" onclick="criarFuncionario()">Enviar</button>
+
+        </fieldset>   
+
+
+    </form>
+
+    <div>
+        <fieldset>
+            <legend>Resultado</legend>
+                <p id="resultado"></p>
+                <p id="erro"></p>
+
+            
+        </fieldset>
+    </div>
+    
+<script src="Prática.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,29 @@
+
+
+header p{
+    color: white;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    text-align: center;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
+}
+
+.carousel-caption p{
+    color: white;
+    text-align: center;
+    /*background-color: rgba(255, 193, 7, 0.418);*/
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px black;
+}
