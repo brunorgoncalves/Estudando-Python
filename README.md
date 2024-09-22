@@ -1,8 +1,7 @@
-# Desenvolvimento Backend com Python
+# Estudando programação
 
-Olá!! Meu nome é Bruno Gonçalves e nesse repositório estarei compartilhando meus códigos da trilha de estudos do Bootcamp Python AI Backend Developer da DIO.
+Olá!! Meu nome é Bruno Gonçalves e nesse repositório estarei compartilhando meus códigos da trilha de estudos para me tornar um programador.
 
-Todos os códigos estão com variáveis, strings e comentários em inglês para exerecício constante da língua.
 
 ## Como me achar
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bruno-rocha-goncalves)
@@ -12,6 +11,8 @@ Todos os códigos estão com variáveis, strings e comentários em inglês para 
 ## Hardskills
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
